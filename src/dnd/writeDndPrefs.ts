@@ -28,6 +28,13 @@ export const writeDndPrefs = async (dndPrefs?: DndPrefs) => {
   const buffer = toBplistBuffer(ncPrefs);
   const path = getNcPrefsPath();
 
+  await execFile('/usr/bin/defaults', [
+    'write',
+    'com.apple.ncprefs.plist',
+    '-data',
+    buffer.toString('hex'),
+  ]);
+
   fs.writeFileSync(path, buffer);
 
   try {

@@ -5,7 +5,7 @@ export interface NcPrefsContents {
 export interface DndPrefs {
   userPref?: {
     enabled?: boolean;
-    date?: Date;
+    date?: Date | string;
     reason?: 0 | 1;
   };
 }
