@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.0.1...v1.1.0) (2021-06-06)
+
+
+### Features
+
+* Add homepage ([fe1ef58](https://github.com/TheUnderScorer/do-not-disturb/commit/fe1ef58e3ddce786535c249c0ec1559f4d426496))
+
 ## [1.0.1](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.0.0...v1.0.1) (2021-06-06)
 
 
