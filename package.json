@@ -1,0 +1,65 @@
+{
+  "name": "@theunderscorer/do-not-disturb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "engines": {
+    "node": "13.x"
+  },
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc --pretty -p tsconfig.build.json",
+    "watch": "tsc --watch --pretty -p tsconfig.build.json",
+    "format": "prettier src --write",
+    "test": "ts-mocha -p tsconfig.json src/**/*.test.ts",
+    "test:enable": "node test/enable.test.mjs",
+    "test:disable": "node test/disable.test.mjs",
+    "test:toggle": "node test/toggle.test.mjs"
+  },
+  "keywords": [],
+  "author": {
+    "email": "przemyslawzydek@gmail.com",
+    "name": "Przemysław Żydek"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/mocha": "^8.2.2",
+    "bplist-creator": "^0.1.0",
+    "bplist-parser": "^0.3.0",
+    "mocha": "^8.4.0",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.2.0",
+    "@semantic-release/npm": "7.0.9",
+    "@types/node": "^15.12.1",
+    "prettier": "^2.3.1"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json",
+            "package-lock.json"
+          ]
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  }
+}
