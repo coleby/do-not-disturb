@@ -2,6 +2,11 @@
   "name": "@theunderscorer/do-not-disturb",
   "version": "1.0.0",
   "description": "Simple API for managing Do Not Disturb mode",
+  "homepage": "https://github.com/TheUnderScorer/do-not-disturb",
+  "repository":  {
+    "url": "https://github.com/TheUnderScorer/do-not-disturb.git",
+    "type": "git"
+  },
   "private": false,
   "publishConfig": {
     "access": "public"
