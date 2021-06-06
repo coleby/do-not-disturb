@@ -1,7 +1,11 @@
 {
   "name": "@theunderscorer/do-not-disturb",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple API for managing Do Not Disturb mode",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "build/index.js",
   "engines": {
     "node": "13.x"
