@@ -1,6 +1,6 @@
 {
   "name": "@theunderscorer/do-not-disturb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple API for managing Do Not Disturb mode",
   "private": false,
   "publishConfig": {
