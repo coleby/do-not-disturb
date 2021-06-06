@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.1.0...v1.1.1) (2021-06-06)
+
+
+### Bug Fixes
+
+* Invalid badges urls ([af49579](https://github.com/TheUnderScorer/do-not-disturb/commit/af49579dac9a3d6eb7a541acfc1aa8f01ddf58ef))
+
 # [1.1.0](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.0.1...v1.1.0) (2021-06-06)
 
 
