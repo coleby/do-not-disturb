@@ -1,5 +1,8 @@
 # Do Not Disturb
 
+[![npm](https://img.shields.io/npm/dw/simple-plist.svg?style=popout&logo=npm)](https://www.npmjs.com/package/@theunderscorer/do-not-disturb)
+[![npm](https://img.shields.io/npm/v/simple-plist.svg?style=popout&logo=npm)](https://www.npmjs.com/package/@theunderscorer/do-not-disturb)
+
 A simple API for managing "Do Not Disturb" mode.
 
 > Currently only MacOS is supported.
