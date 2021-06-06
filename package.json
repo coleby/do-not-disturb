@@ -11,6 +11,7 @@
     "build": "tsc --pretty -p tsconfig.build.json",
     "watch": "tsc --watch --pretty -p tsconfig.build.json",
     "format": "prettier src --write",
+    "semantic-release": "semantic-release",
     "test": "ts-mocha -p tsconfig.json src/**/*.test.ts",
     "test:enable": "node test/enable.test.mjs",
     "test:disable": "node test/disable.test.mjs",
