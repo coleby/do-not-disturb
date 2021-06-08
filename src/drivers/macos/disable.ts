@@ -1,7 +1,6 @@
-import { writeDndPrefs } from './dnd/writeDndPrefs';
+import { writeDndPrefs } from './writeDndPrefs';
 import { isEnabled } from './isEnabled';
-import { execFile } from './util/execFile';
-import { checkOs } from './checkOs';
+import { execFile } from '../../util/execFile';
 
 let didControlCenterReset = false;
 
@@ -11,8 +10,6 @@ let didControlCenterReset = false;
  * @return boolean True if DnD was disabled, false on failure
  * */
 export const disable = async (): Promise<boolean> => {
-  checkOs();
-
   await writeDndPrefs();
 
   if (!didControlCenterReset) {

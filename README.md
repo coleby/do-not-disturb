@@ -17,6 +17,8 @@ A simple API for managing "Do Not Disturb" mode.
 
 There are already plenty of packages for managing "Do Not Disturb" mode, however I was not able to get them to work on latest MacOS version (Big Sur) hence I've created this package :P.
 
+It also supports older MacOS versions via `@sindresorhus/do-not-disturb` package used as fallback.
+
 
 ## Usage
 

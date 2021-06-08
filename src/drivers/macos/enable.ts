@@ -1,6 +1,5 @@
-import { writeDndPrefs } from './dnd/writeDndPrefs';
+import { writeDndPrefs } from './writeDndPrefs';
 import { isEnabled } from './isEnabled';
-import { checkOs } from './checkOs';
 
 /**
  * Enables DnD mode.
@@ -8,8 +7,6 @@ import { checkOs } from './checkOs';
  * @return boolean True on success, false if DnD is not enabled.
  * */
 export const enable = async (): Promise<boolean> => {
-  checkOs();
-
   await writeDndPrefs({
     userPref: {
       date: new Date(),

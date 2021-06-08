@@ -1,10 +1,10 @@
 import toBplistBuffer from 'bplist-creator';
 import fs from 'fs';
-import { DndPrefs } from '../types';
 import { getNcPrefs } from './getNcPrefs';
 import { getDndPrefs } from './getDndPrefs';
-import { execFile } from '../util/execFile';
+import { execFile } from '../../util/execFile';
 import { getNcPrefsPath } from './getNcPrefsPath';
+import { DndPrefs } from './types';
 
 export const writeDndPrefs = async (dndPrefs?: DndPrefs) => {
   const ncPrefs = (await getNcPrefs()) ?? {};

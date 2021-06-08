@@ -1,11 +1,16 @@
-export interface NcPrefsContents {
-  dnd_prefs?: Buffer;
-}
+export interface DndDriver {
+  /**
+   * Enables DnD mode.
+   *
+   * @return boolean True on success, false if DnD is not enabled.
+   * */
+  enable: () => Promise<boolean>;
 
-export interface DndPrefs {
-  userPref?: {
-    enabled?: boolean;
-    date?: Date | string;
-    reason?: 0 | 1;
-  };
+  /**
+   * Disables DnD mode.
+   *
+   * @return boolean True if DnD was disabled, false on failure
+   * */
+  disable: () => Promise<boolean>;
+  isEnabled: () => Promise<boolean>;
 }

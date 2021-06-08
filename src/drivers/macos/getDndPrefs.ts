@@ -1,7 +1,7 @@
 import { parseBuffer } from 'bplist-parser';
-import { DndPrefs, NcPrefsContents } from '../types';
-import { first } from '../util/first';
+import { first } from '../../util/first';
 import { getNcPrefs } from './getNcPrefs';
+import { DndPrefs, NcPrefsContents } from './types';
 
 export const getDndPrefs = async (
   prefs?: NcPrefsContents

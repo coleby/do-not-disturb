@@ -33,18 +33,21 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@sindresorhus/do-not-disturb": "^1.1.0",
     "bplist-creator": "^0.1.0",
-    "bplist-parser": "^0.3.0"
+    "bplist-parser": "^0.3.0",
+    "semver": "^7.3.5"
   },
   "devDependencies": {
-    "@types/mocha": "^8.2.2",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "@semantic-release/github": "7.2.0",
     "@semantic-release/npm": "7.0.9",
+    "@types/mocha": "^8.2.2",
     "@types/node": "^15.12.1",
-    "prettier": "^2.3.1",
+    "@types/semver": "^7.3.6",
     "mocha": "^8.4.0",
+    "prettier": "^2.3.1",
     "ts-mocha": "^8.0.0",
     "typescript": "^4.3.2"
   },
