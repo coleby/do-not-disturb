@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.2.0...v1.3.0) (2021-06-08)
+
+
+### Features
+
+* Support older macos versions ([ebc2b74](https://github.com/TheUnderScorer/do-not-disturb/commit/ebc2b74659d333ebc6840b98a1e6bf8171a96d6a))
+
 # [1.2.0](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.1.2...v1.2.0) (2021-06-06)
 
 
