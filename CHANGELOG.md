@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.1.2...v1.2.0) (2021-06-06)
+
+
+### Features
+
+* Use /usr/bin/defaults ([2fb4d20](https://github.com/TheUnderScorer/do-not-disturb/commit/2fb4d201db538be6c3c54f9ec7c7573162f3c0a6))
+
 ## [1.1.2](https://github.com/TheUnderScorer/do-not-disturb/compare/v1.1.1...v1.1.2) (2021-06-06)
 
 
