@@ -13,7 +13,7 @@
   },
   "main": "build/index.js",
   "engines": {
-    "node": "13.x"
+    "node": "14"
   },
   "types": "build/index.d.ts",
   "scripts": {
